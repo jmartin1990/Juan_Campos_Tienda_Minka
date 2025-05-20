@@ -1,0 +1,149 @@
+/* Estilos generales */
+/* Asegura que el body ocupe toda la altura y sea flexible */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background-color: #f8f9fa;*/
+    background-image: url('../img/fondo-web.jpg');
+    background-size: cover;       /* Cubre toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-attachment: fixed; /* Fondo fijo al hacer scroll */
+    background-repeat: no-repeat; /* Evita repetición */
+    margin: 0;
+    min-height: 100vh;           /* Altura mínima = pantalla completa */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Ajusta según la altura real del navbar */
+}
+
+/* Oscurecer el fondo para mejorar legibilidad 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(0, 0, 0, 0.5); Negro con 50% de opacidad
+    z-index: -1; Detrás del contenido
+}
+*/
+.container {
+    max-width: 1200px;
+}
+
+/* El contenido principal (main) crecerá para empujar el footer */
+.container.my-5 {
+    flex: 1;
+}
+
+/* Estilos para las tarjetas de productos */
+.card {
+    transition: transform 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos para el navbar */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* para que quede sobre otros elementos */
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar.bg-custom {
+    background-color: #017d49 !important;
+}
+
+/* Ajustes para el logo */
+/* Logo más grande */
+.navbar-brand img {
+    width: 120px !important;  /* Ajusta este valor */
+    height: auto !important;
+    transition: all 0.3s;
+}
+
+/* Texto del título más grande */
+.navbar-brand span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar-brand:hover img {
+    transform: rotate(-5deg) scale(1.1);
+}
+
+/* Estilos para la tarjeta del formulario*/
+.card-header.bg-custom {
+    background-color: #017d49 !important;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #ffb925;
+    border-color: #dca329;
+}
+
+.btn-primary:hover {
+    background-color: #fdaf05;
+    border-color: #d49307;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40;
+    flex-shrink: 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Estilos para las alertas */
+.alert {
+    border-radius: 8px;
+}
+
+/* Estilos para la tabla del carrito */
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    .navbar-brand img {
+        width: 50px !important;
+    }
+    .navbar-brand span {
+        font-size: 1.2rem;
+    }
+}
+

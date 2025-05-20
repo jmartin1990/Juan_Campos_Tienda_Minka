@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto>
+    <referencia>P001</referencia>
+    <nombre>Pisco Peruano</nombre>
+    <precio>45.90</precio>
+    <descripcion>Pisco puro de uva, botella 750ml</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P002</referencia>
+    <nombre>Chocolate de Cusco</nombre>
+    <precio>12.50</precio>
+    <descripcion>Chocolate artesanal con granos de cacao peruano</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P003</referencia>
+    <nombre>Café de Chanchamayo</nombre>
+    <precio>28.75</precio>
+    <descripcion>Café gourmet de altura</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P004</referencia>
+    <nombre>Aceitunas de Tacna</nombre>
+    <precio>8.30</precio>
+    <descripcion>Aceitunas verdes y negras</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P005</referencia>
+    <nombre>Quinua Orgánica</nombre>
+    <precio>15.20</precio>
+    <descripcion>Quinua real de los Andes</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P006</referencia>
+    <nombre>Maca en Polvo</nombre>
+    <precio>22.40</precio>
+    <descripcion>Superalimento andino</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P007</referencia>
+    <nombre>Ají Amarillo</nombre>
+    <precio>7.80</precio>
+    <descripcion>Pasta de ají amarillo peruano</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P008</referencia>
+    <nombre>Alpaca Sweater</nombre>
+    <precio>89.90</precio>
+    <descripcion>Chompa de lana de alpaca</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P009</referencia>
+    <nombre>Spirulina Peruana</nombre>
+    <precio>34.50</precio>
+    <descripcion>Alga nutritiva del Lago Titicaca</descripcion>
+    <imagen/>
+  </producto>
+  <producto>
+    <referencia>P010</referencia>
+    <nombre>Olluco Seco</nombre>
+    <precio>6.75</precio>
+    <descripcion>Tubérculo andino deshidratado</descripcion>
+    <imagen/>
+  </producto>
+</catalogo>
